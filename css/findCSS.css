@@ -1,0 +1,268 @@
+
+/*NEW CHANGES
+*/
+
+li.activebtn {
+    color:  #C39B09; /*changed to be darker for readability*/
+    cursor: pointer;
+}
+li:hover {
+    color: #ebba0a;
+    cursor: pointer;
+}
+
+/*allows the card to overlay the thumbnail */
+.business-info{
+    position:relative;
+    top: -140px;
+    left: 5rem; /*18 - 13 = 5*/
+    background-color: #ebba0a;
+    border-radius: 0rem;
+}
+
+/*END NEW CHANGES*/
+
+
+
+#sidebar {
+    margin-right:5%;
+}
+
+#myCarousel {
+    clear: both;
+}
+
+
+.nopad {
+    padding-right: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+#sidebar {
+    max-width: 15%;
+}
+
+#keys ul {
+    padding:0;
+    font-size: .8rem;
+}
+
+.iconHolder {
+    position: absolute;
+    width: 70%;
+    height: 25%;
+    top: 60%;
+    right: 0%;
+    background-color:  #ebba0a;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+.iconHolder h2 {
+    margin-left: 2%;
+    padding-bottom: 2%;
+    font-size: 1.5em;
+}
+
+p.rating {
+    display: inline;
+    float: right;
+}
+
+ .backed {
+     background-color: white;
+ }
+
+img.star {
+    float: right;
+    margin-right: 5%;
+}
+
+#keys {
+    background-color: rgb(233, 233, 233);
+}
+
+#keys h2 {
+    border-bottom: 2px solid;
+    text-align: center;
+}
+
+.card-img-top {
+    max-width:100%;
+    height: auto;
+    box-shadow: 3px 4px rgba(167, 165, 165, 0.404);
+}
+
+#industries {
+   border-bottom: 1px solid;
+}
+
+
+
+#industryList {
+    padding: 2%;
+}
+
+#businesses .d-flex {
+    padding:1%;
+}
+
+.industry-header {
+    background-color:#fbe089;
+    width:80%;
+    padding:1.5%;
+}
+
+#industry-description {
+    margin-bottom: 1%;
+}
+
+p.industry-info {
+    margin-bottom: 4%;
+}
+
+.iconHolder .icon {
+    position: relative;
+    max-width: 15%;
+    height: auto;
+    bottom: 30%;
+    padding: 0.25% 0.5%;
+    border-radius: 20%;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.keyimg {
+    width: 10%;
+    margin: 2% 10%;
+}
+
+/*CSS For Filtering*/
+
+  .card {
+    width: 18rem;
+    height: 18rem;
+    display: none;
+    border: none !important;
+    background-color: transparent !important;
+  }
+
+  .businessBody {
+      min-height: 20rem;
+      margin-left:1%;
+      padding:0 !important;
+  }
+
+  .industry-info {
+      display: none;
+  }
+
+  .show {
+    display: inline-block;
+  }
+
+  .show-text {
+      display: inline;
+  }
+
+  
+  
+  /*To Style the Filter Buttons*/
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    
+  }
+
+  @media only screen and (max-width: 992px) {
+    
+    #sidebar {
+        max-width: 100%;
+        padding: 0;
+        margin-bottom: 3%;
+    }
+
+    #keys ul {
+        padding:0;
+        font-size: .5rem;
+    }
+
+    #industries {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #keys ul {
+        list-style: none;
+        margin: 0 2%;
+        padding: 0;
+        display: inline-flex;
+        text-align: left;
+        max-height:55%;
+  }
+
+  #industryList {
+        display: flex;
+        align-items: stretch; /* Default */
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 2%;
+        margin-bottom: 1%;
+        padding: 0;
+}
+
+#industryList li {
+    text-align: center;
+    margin: 1%;
+}
+
+  #keys li {
+      height: auto;
+      font-size:
+      0.9rem;
+  }
+
+  .carousel-caption {
+      top:50%;
+  }
+
+  .carousel-caption h3 {
+      font-size:1.5rem;
+  }
+
+  .carousel-caption h2.businessTitle {
+    font-size:2rem;
+}
+
+.carousel-caption h3.businessOwner {
+    font-size:1.75rem;
+}
+
+  ul li {
+      width: 33%;
+      text-align: center;
+  }
+
+  .keyimg {
+      max-height: 100%;
+      height: auto;
+      width: 20%;
+      min-height: 100%;
+  }
+
+  #businesses .d-flex {
+      margin-bottom: 4%;
+  }
+}

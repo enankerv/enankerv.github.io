@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Find Local Businesses</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="description" content="">
+    <meta name="generator" content="Jekyll v4.1.1">
+
+  <!--Bootstrap Carousel Template-->
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/styles.css" rel="stylesheet">
+
+  <!--Find Page CSS-->
+  <link href="../css/findCSS.css" rel="stylesheet">
+  <link href="../css/styles-homepagecomponents.css" rel="stylesheet">
+  <!--Javascript-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+  <div id = "mb-0 pb-0">
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light m-0">
+        <!-- Navbar content -->
+        <br>
+        <!--mx-auto helps center content in the nav-->
+        <div class = "mx-auto">
+            <a class = "m-0 brandname" href = "home.html">Braddock Region Chamber of Commerce</a>
+        </div> <!--end flexbox-->
+
+    </nav> <!--end brand nav-->
+
+  </div>
+<!--tab nav-->
+<nav class="navbar sticky-top navbar-expand-sm navbar-light">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <!--needed to use flex boxes in order to maintain spacing-->
+      
+      <div class="d-flex mx-auto tabs">
+      <a class = "nav-link" href = "home.html">  Home  <span class="sr-only">(current)</span></a> 
+      </div>
+      <div class="d-flex mx-auto tabs">
+          <a class = "nav-link active-tab" href = "find.html">  Find  </a> 
+      </div>
+      <div class="d-flex mx-auto tabs">
+          <a class = "nav-link" href = "#"> Start </a> 
+      </div>
+      <div class="d-flex mx-auto tabs">
+          <a class = "nav-link" href = "#">Develop</a> 
+      </div>
+      <div class="d-flex mx-auto tabs">
+          <a class = "nav-link" href = "#"> About </a> 
+      </div>
+  </div><!--end collapse navbar-collapse-->
+</nav> <!--end tab nav-->
+
+    
+
+      </div>
+      </div>
+      </nav>
+  <!--find page breadcrumb-->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Find</li>
+    </ol>
+  </nav>
+
+<!--Start of Carousel-->
+<div id="myCarousel" class="carousel slide container-fluid-md container-lg" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+    <img class="img-fluid" src="../images/flower-shop.jpg" alt="Card image cap">
+    <div class="container">
+      <div class="carousel-caption text-center">
+        <h3>Business of the Week</h3>
+        <h2>Flowers for All Occasions</h2>
+        <h3>Isabelle Mejuri</h3>
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+      </div>
+    </div>
+  </div><!--end carousel-item active-->
+  <div class="carousel-item">
+    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+    <img class="img-fluid" src="../images/shoe-store.jpg" alt="Card image cap">  
+    <div class="container">
+        <div class="carousel-caption text-center">
+          <h3>Business of the Week</h3>
+          <h2 class="businessTitle">Sole-Lover</h2>
+          <h3 class="businessOwner">Albert Enq</h3>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+        </div>
+      </div>
+  </div><!--end carousel-item-->
+  <div class="carousel-item">
+    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+    <img class="img-fluid" src="../images/photography.jpg" alt="Card image cap">  
+    <div class="container">
+      <div class="carousel-caption text-center">
+        <h3>Business of the Week</h3>
+        <h2 class="businessTitle">Simon's Snaps</h2>
+        <h3 class="businessOwner">Simon Knowel</h3>
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+      </div>
+    </div>
+  </div>
+</div><!--end carouselInner-->
+<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+<!--End of myCarousel-->
+
+
+<div id="content" class="container-md-fluid container-lg">
+  <div class="row">
+  <!--Industries Side Nav-->
+  <div id="sidebar" class="col-md-12 col-lg-3">
+    <div class="row">
+        <h2 id="industries">Industries</h2>
+        <ul id="industryList">
+          <li class="industry" onclick="filterSelection('non-profits')">Non-Profits</li> 
+          <li class="industry" onclick="filterSelection('tech')">Technology & Innovation</li> 
+          <li class="industry" onclick="filterSelection('entertainment')">Entertainment</li> 
+          <li class="industry" onclick="filterSelection('education')">Education</li> 
+          <li class="industry" onclick="filterSelection('healthcare')">Healthcare</li> 
+          <li class="industry" onclick="filterSelection('social justice')">Social Justice</li>
+        </ul>
+    </div><!--end row-->
+    <div class="row">
+      <div id="keys">
+        <h2>Key</h2>
+        <ul>
+          <li><img class="keyimg" src="../images/sustainible.png">Sustainable</li>
+          <li><img class="keyimg" src="../images/education.png"> Educational</li>
+          <li><img class="keyimg" src="../images/certified.png"> Certified</li>
+        </ul>
+      </div><!--end div keys-->
+    </div><!--end row-->
+    
+  </div><!--end sidebar container-->
+
+<div class="col-md-12 col-lg-9 businessBody">
+    <div class="row">
+      <div class="col text-center industry-header">
+        <h2 class="industry-header industry-info education">Education</h2>
+        <h2 class="industry-header industry-info non-profits">Non-Profits</h2>
+        <h2 class="industry-header industry-info normal">Select an Industry to Show Businesses In The Area</h2>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div id="industry-description" class="col">
+        <p class="industry-info education"><b>Braddock’s schools uplift the community. Take a look at some of the organizations below 
+              that we have partnered with that are making a major impact accross the region</b></p>
+        <p class="industry-info non-profits"><b>Braddock’s nonprofits are the backbone of the region. Take a look at some of the organizations below 
+                that we have partnered with that are making a major impact accross the region</b></p>
+      </div>
+    </div>
+  <div id="businesses" class="container-fluid">
+      <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+              <div class="card education mx-auto">
+                <img class="card-img-top" src="../images/Ambrose.jpg" alt="Card image cap">
+                <div class="iconHolder">
+                  <h2 class="text-left">Ambrose High</h2>
+                  <img class="icon backed" src="../images/education.png">
+                  <img class="icon backed" src="../images/certified.png">
+                  <img class="icon backed" src="../images/sustainible.png">
+                  <img class="icon star" src="../images/star.png">
+                  <p class="rating">4.5</p>
+                </div>
+              </div>
+              <div class="card non-profits">
+                <img class="card-img-top" src="../images/non-profit.jpg" alt="Card image cap">
+                <div class="iconHolder">
+                  <h2 class="text-left">Camp Lyre</h2>
+                  <img class="icon backed" src="../images/education.png">
+                  <img class="icon backed" src="../images/certified.png">
+                  <img class="icon backed" src="../images/sustainible.png">
+                  <img class="icon star" src="../images/star.png">
+                  <p class="rating">3.8</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <div class="card non-profits">
+              <img class="card-img-top" src="../images/non-profit.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Camp Lyre</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">3.8</p>
+              </div>
+            </div>
+            <div class="card education">
+              <img class="card-img-top" src="../images/Ambrose.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Ambrose High</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">4.5</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <div class="card non-profits">
+              <img class="card-img-top" src="../images/non-profit.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Camp Lyre</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">3.8</p>
+              </div>
+            </div>
+            <div class="card education">
+              <img class="card-img-top" src="../images/Ambrose.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Ambrose High</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed " src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">4.5</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <div class="card non-profits">
+              <img class="card-img-top" src="../images/non-profit.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Camp Lyre</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">3.8</p>
+              </div>
+            </div>
+            <div class="card education">
+              <img class="card-img-top" src="../images/Ambrose.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Ambrose High</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">4.5</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <div class="card non-profits">
+              <img class="card-img-top" src="../images/non-profit.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Camp Lyre</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">3.8</p>
+              </div>
+            </div>
+            <div class="card education">
+              <img class="card-img-top" src="../images/Ambrose.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Ambrose High</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">4.5</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <div class="card non-profits">
+              <img class="card-img-top" src="../images/non-profit.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Camp Lyre</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">3.8</p>
+              </div>
+            </div>
+            <div class="card education">
+              <img class="card-img-top" src="../images/Ambrose.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Ambrose High</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">4.5</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <div class="card non-profits">
+              <img class="card-img-top" src="../images/non-profit.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Camp Lyre</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">3.8</p>
+              </div>
+            </div>
+            <div class="card education">
+              <img class="card-img-top" src="../images/Ambrose.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Ambrose High</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">4.5</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <div class="card non-profits">
+              <img class="card-img-top" src="../images/non-profit.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Camp Lyre</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">3.8</p>
+              </div>
+            </div>
+            <div class="card education">
+              <img class="card-img-top" src="../images/Ambrose.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Ambrose High</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">4.5</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <div class="card non-profits">
+              <img class="card-img-top" src="../images/non-profit.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Camp Lyre</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">3.8</p>
+              </div>
+            </div>
+            <div class="card education">
+              <img class="card-img-top" src="../images/Ambrose.jpg" alt="Card image cap">
+              <div class="iconHolder">
+                <h2 class="text-left">Ambrose High</h2>
+                <img class="icon backed" src="../images/education.png">
+                <img class="icon backed" src="../images/certified.png">
+                <img class="icon backed" src="../images/sustainible.png">
+                <img class="icon star" src="../images/star.png">
+                <p class="rating">4.5</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div> 
+<br><br><br><br><br><br>
+<script src="../js/scripts.js"></script>
+
+<footer class = "pb-0 mb-0">
+  <!--
+      CREDITS
+      facebook
+      <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      linkedin
+      <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      email
+      <div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  -->
+  <br>
+  <div class = "d-flex justify-content-center">
+      <a href = "https://www.linkedin.com"><img class = "icon p-3" src = "../images/linkedin.svg"></img></a>
+      <a href = "mailto:cnnaeto@andrew.cmu.edu"><img class = "icon p-3 mt-1" src = "../images/email.svg"></img></a>
+      <a href = "https://www.facebook.com"><img class = "icon p-3" src = "../images/facebook.svg"></img></a>
+  
+  </div> <!--end d-flex-->
+  
+  <br>
+  <div class = "copyright">
+      <div class = "d-flex justify-content-center p-3 pt-4">
+      
+          <p>&copy;2020 Braddock Region Chamber of Commerce &middot;
+              200 Well ln. Braddock PA 15104 &middot;
+              412-234-2565
+          </p>
+  
+      </div> <!--end d-flex-->
+  
+  </div><!--end copyright-->
+  
+  </footer>
+  <script src="../js/scripts.js"></script>
+</body>
+</html>
